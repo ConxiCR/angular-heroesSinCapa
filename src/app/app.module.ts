@@ -9,6 +9,7 @@ import { HeroDetailComponent } from "./hero-detail/hero-detail.component";
 import { MessagesComponent } from "./messages/messages.component";
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
+import { InMemoryDataService } from './in-memory-data.service';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, AppRoutingModule,  HttpClientModule,],
@@ -19,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
     MessagesComponent,
     DashboardComponent
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  providers: [InMemoryDataService]
 })
 export class AppModule {}
