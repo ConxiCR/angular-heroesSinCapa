@@ -18,7 +18,6 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
     MessagesComponent,
     DashboardComponent
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
