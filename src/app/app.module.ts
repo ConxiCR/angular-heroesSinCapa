@@ -7,7 +7,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroesComponent } from "./heroes/heroes.component";
 import { HeroDetailComponent } from "./hero-detail/hero-detail.component";
 import { MessagesComponent } from "./messages/messages.component";
-import { AppRoutingModule } from '../app-routing/app-routing.component';
+import { AppRoutingModule } from './app-routing/app-routing.module';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, AppRoutingModule],
