@@ -8,9 +8,10 @@ import { HeroesComponent } from "./heroes/heroes.component";
 import { HeroDetailComponent } from "./hero-detail/hero-detail.component";
 import { MessagesComponent } from "./messages/messages.component";
 import { AppRoutingModule } from './app-routing/app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, AppRoutingModule],
+  imports: [BrowserModule, FormsModule, AppRoutingModule,  HttpClientModule,],
   declarations: [
     AppComponent,
     HeroesComponent,
