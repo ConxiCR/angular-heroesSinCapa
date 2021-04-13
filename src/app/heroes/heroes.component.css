@@ -8,12 +8,14 @@
 }
 input {
   display: block;
-  width: 100%;
+  width: 50%;
   padding: 0.5rem;
   margin: 1rem 0;
   box-sizing: border-box;
 }
-
+input:focus {
+  outline: #336699 auto 1px;
+}
 .heroes li {
   position: relative;
   cursor: pointer;
