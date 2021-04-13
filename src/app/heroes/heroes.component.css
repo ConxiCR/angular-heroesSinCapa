@@ -24,12 +24,6 @@ input {
   height: 1.6em;
   border-radius: 4px;
 }
-
-.heroes li:hover {
-  color: #2c3a41;
-  background-color: #e6e6e6;
-  left: 0.1em;
-}
 .heroes li:hover {
   color: #2c3a41;
   background-color: #e6e6e6;
