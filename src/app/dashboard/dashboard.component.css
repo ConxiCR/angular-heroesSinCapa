@@ -20,15 +20,15 @@ h2 {
 a {
   background-color: #3f525c;
   border-radius: 2px;
-  padding: 20px;
+  padding: 30px;
   font-size: 1.2rem;
   text-decoration: none;
   display: inline-block;
   color: #fff;
   text-align: center;
-  width: 100%;
-  max-height: 200px;
-  min-width: 200px;
+  width: 80%;
+  max-height: 120px;
+  min-width: 120px;
   margin: 0.5rem auto;
   box-sizing: border-box;
 

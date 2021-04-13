@@ -4,13 +4,12 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-  color: #369;
+  color: #336699;
   font-size: 2.5rem;
 }
 h2,
 h3 {
-  color: #444;
-  font-weight: lighter;
+  color: #6a7683;  
 }
 body {
   padding: 0.5rem;
