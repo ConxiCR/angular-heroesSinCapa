@@ -41,18 +41,22 @@ input {
   background-color: black;
   color: white;
 }
-
 .heroes a {
   color: #333;
   text-decoration: none;
-  background-color: #eee;
+
   margin: 0.5em;
   padding: 0.3em 0;
   height: 1.6em;
   border-radius: 4px;
-  display: block;
+
   width: 100%;
 }
+/*
+.heroes a {
+ background-color: #eeeeee;
+ display: block;
+}*/
 
 .heroes a:hover {
   color: #2c3a41;
