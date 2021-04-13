@@ -28,7 +28,7 @@ a {
   text-align: center;
   width: 100%;
   min-width: 70px;
-  margin: .5rem auto;
+  margin: 0.5rem auto;
   box-sizing: border-box;
 
   /* flexbox */
@@ -36,14 +36,14 @@ a {
   flex: 0 1 auto;
   align-self: auto;
 }
+a:hover {
+  background-color: #000;
+  color: green;
+}
 
 @media (min-width: 600px) {
   a {
     width: 18%;
     box-sizing: content-box;
   }
-}
-
-a:hover {
-  background-color: #000;
 }
