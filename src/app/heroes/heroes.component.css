@@ -5,7 +5,6 @@
   padding: 0;
   width: 15em;
 }
-
 input {
   display: block;
   width: 100%;
@@ -17,12 +16,6 @@ input {
 .heroes li {
   position: relative;
   cursor: pointer;
-  left: 0;
-  background-color: #eee;
-  margin: 0.5em;
-  padding: 0.3em 0;
-  height: 1.6em;
-  border-radius: 4px;
 }
 .heroes li:hover {
   color: #2c3a41;
@@ -42,9 +35,10 @@ input {
   color: white;
 }
 .heroes a {
+  display: block;
   color: #333;
   text-decoration: none;
-
+  background-color: #eee;
   margin: 0.5em;
   padding: 0.3em 0;
   height: 1.6em;
@@ -52,12 +46,6 @@ input {
 
   width: 100%;
 }
-/*
-.heroes a {
- background-color: #eeeeee;
- display: block;
-}*/
-
 .heroes a:hover {
   color: #2c3a41;
   background-color: #e6e6e6;
